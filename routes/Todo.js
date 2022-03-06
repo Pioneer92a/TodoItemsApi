@@ -11,7 +11,7 @@ const {
   deleteTodo,
   getAllTodos,
   updateTodo,
-} = require('../controllers/Todo');
+} = require('../Presentation/controllers');
 
 // params
 // it will fetch the value from the url
