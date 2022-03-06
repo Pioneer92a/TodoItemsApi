@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable consistent-return */
-const Todo = require('../models/Todo');
+const Todo = require('../infrastructure/persistence/Todo');
 
 // first lets create a middleware
 exports.getTodoById = (req, res, next, todoId) => {
