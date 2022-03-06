@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const port = 8000;
 
 // create todoRoutes
-const todoRoutes = require('./routes/Todo');
+const todoRoutes = require('./Presentation/routes');
 
 const app = express(); // create the server
 
